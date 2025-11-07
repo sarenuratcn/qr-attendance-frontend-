@@ -1,0 +1,24 @@
+/* ======== GLOBAL RESET ======== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ======== GLOBAL BODY ======== */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  background-color: #f8fafc; /* beyaz-açık gri arka plan */
+  color: #1e293b; /* koyu gri yazı */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', sans-serif;
+}
+
+/* Scrollbar görünümü (isteğe bağlı, sade) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,0.2);
+  border-radius: 4px;
+}
